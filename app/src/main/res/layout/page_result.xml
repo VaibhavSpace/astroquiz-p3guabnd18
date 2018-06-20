@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover2"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/adjust_margin_padding_five"
+        android:layout_marginEnd="@dimen/adjust_margin_padding_ten"
+        android:layout_marginStart="@dimen/adjust_margin_padding_ten"
+        android:layout_marginTop="@dimen/adjust_margin_padding_ten"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/color_primary_dark"
+        app:cardElevation="@dimen/adjust_margin_padding_five"
+        app:cardMaxElevation="@dimen/adjust_margin_padding_ten"
+        card_view:cardCornerRadius="@dimen/adjust_margin_padding_ten">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/adjust_margin_padding_ten"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jura_bold"
+                android:gravity="center"
+                android:text="@string/name_result"
+                android:textSize="@dimen/header_two" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/adjust_margin_padding_five"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/total_questions"
+                    android:textSize="@dimen/header_two" />
+
+                <TextView
+                    android:id="@+id/total_questions_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/_0"
+                    android:textSize="@dimen/header_two" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/adjust_margin_padding_five"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/correct"
+                    android:textSize="@dimen/header_two" />
+
+                <TextView
+                    android:id="@+id/correct_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/_0"
+                    android:textSize="@dimen/header_two" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/adjust_margin_padding_five"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/incorrect"
+                    android:textSize="@dimen/header_two" />
+
+                <TextView
+                    android:id="@+id/incorrect_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/_0"
+                    android:textSize="@dimen/header_two" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/not_attempted"
+                    android:textSize="@dimen/header_two" />
+
+                <TextView
+                    android:id="@+id/not_attempted_text_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/_0"
+                    android:textSize="@dimen/header_two" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/score"
+                    android:textSize="@dimen/header_two" />
+
+                <TextView
+                    android:id="@+id/your_score"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jura_semibold"
+                    android:text="@string/_0"
+                    android:textSize="@dimen/header_two" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/adjust_margin_padding_ten"
+        android:layout_marginEnd="@dimen/adjust_margin_padding_ten"
+        android:layout_marginStart="@dimen/adjust_margin_padding_ten"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/color_primary_dark"
+        app:cardElevation="@dimen/adjust_margin_padding_five"
+        app:cardMaxElevation="@dimen/adjust_margin_padding_ten"
+        card_view:cardCornerRadius="@dimen/adjust_margin_padding_ten">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/adjust_margin_padding_five"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jura_semibold"
+                android:gravity="center"
+                android:text="@string/thank_you"
+                android:textColor="@color/extra_one"
+                android:textSize="@dimen/header_two" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jura_semibold"
+                android:gravity="center"
+                android:text="@string/keeplookingup"
+                android:textColor="@color/extra_one"
+                android:textSize="@dimen/header_two" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/jura_medium"
+                android:gravity="center"
+                android:text="@string/quote"
+                android:textColor="@color/color_accent"
+                android:textSize="@dimen/header_three"
+                android:textStyle="italic" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jura_medium"
+                android:gravity="center"
+                android:text="@string/carl_sagan"
+                android:textColor="@color/color_accent"
+                android:textSize="@dimen/header_three" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jura_light"
+                android:gravity="center"
+                android:autoLink="web"
+                android:text="@string/udacity_learning"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/jura_light"
+                android:gravity="center"
+                android:text="@string/disclaimer"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

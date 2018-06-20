@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Strings are from xml layouts -->
+    <string name="app_name">AstroQuiz</string>
+    <string name="astronomy_quiz">Astronomy Quiz</string>
+    <string name="name_hint">Name</string>
+    <string name="go_explore">Go,Explore!</string>
+    <string name="because_we_are_made_of_star_stuffs">Because we are made of star stuffs!</string>
+    <string name="_0">0</string>
+    <string name="_1_3">1/3</string>
+    <string name="questions">Questions</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="answer_it">Answer it!</string>
+    <string name="leave_result">Leave? Result</string>
+    <string name="name_result">Name</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="not_attempted">Not Attempted</string>
+    <string name="score">Score</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="keeplookingup">#KeepLookingUp</string>
+    <string name="disclaimer">Dots(•••) represent question difficulty. All the images were taken mostly NASA and/or public domains. All rights reserved to their respective owner otherwise stated.</string>
+    <string name="quote">“The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff.</string>
+    <string name="carl_sagan">- Carl Sagan</string>
+    <string name="udacity_learning">App developed while learning Android at Google Udacity India Scholarship 2018 by github.com/exospecies</string>
+
+    <!-- Strings are from java activities -->
+    <string name="slash">/</string>
+    <string name="please_enter_name.">Please, enter your name.</string>
+    <string name="full_stop">.</string>
+    <string name="user_name_for_summary">Name:\ </string>
+    <string name="total_questions_for_summary">\nTotal Questions:\ </string>
+    <string name="correct_questions_for_summary">\nCorrect:\ </string>
+    <string name="incorrect_questions_for_summary">\nIncorrect:\ </string>
+    <string name="not_attempted_questions_for_summary">\nNot Attempted:\ </string>
+    <string name="score_for_summary">\nScore:\ </string>
+
+</resources>
